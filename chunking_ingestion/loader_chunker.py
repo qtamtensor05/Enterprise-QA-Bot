@@ -53,11 +53,3 @@ def process_document(file_path):
     cleaned_text = clean_text(raw_text)
     chunks = create_chunks(cleaned_text)
     return chunks
-
-if __name__ == "__main__":
-    file_path = "./Docs/E-14533.pdf" 
-    
-    chunks = process_document(file_path)
-    
-    if chunks:
-        print(chunks[0])
