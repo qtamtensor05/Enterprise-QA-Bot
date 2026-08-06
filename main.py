@@ -2,7 +2,7 @@ from chunking_ingestion.loader_chunker import process_document
 from embedding_vector_storage.vector_storage import store_chunks_to_db
 
 if __name__ == "__main__":
-    file_path = "./Docs/E-14533.pdf" 
+    file_path = "./Docs/quydinh.txt" 
     
     chunks = process_document(file_path)
     
